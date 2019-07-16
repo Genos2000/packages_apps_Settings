@@ -59,15 +59,6 @@
         settings:userRestriction="no_config_tethering"
         settings:useAdminDisabledSummary="true" />
 
-    <com.android.settingslib.RestrictedPreference
-        android:key="manage_mobile_plan"
-        android:title="@string/manage_mobile_plan_title"
-        android:icon="@drawable/ic_mobile_plan"
-        android:persistent="false"
-        android:order="0"
-        settings:userRestriction="no_config_mobile_networks"
-        settings:useAdminDisabledSummary="true" />
-
     <com.android.settingslib.RestrictedSwitchPreference
         android:key="airplane_mode"
         android:title="@string/airplane_mode"
